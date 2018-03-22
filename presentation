@@ -1,0 +1,15 @@
+1. Modern web-developer tools
+    - parcel-bundler
+    - prettier.io
+    - test-cafe
+2. test cafe
+    - compare with others (protactor)
+    - install
+    - write test
+    - run from command line
+    - create config
+        - search for all files
+        - add browsers
+        - create screenshot
+        - add browserstack
+            -create env

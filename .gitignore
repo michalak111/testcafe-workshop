@@ -1,0 +1,15 @@
+# Logs
+logs
+*.log*
+
+#parcel-bundler
+.cache
+
+#build
+dist
+
+#dependency
+node_modules
+
+#IDEA
+.idea

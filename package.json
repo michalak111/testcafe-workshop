@@ -1,0 +1,27 @@
+{
+  "name": "react-test-cafe",
+  "version": "1.0.0",
+  "description": "TestCafe",
+  "scripts": {
+    "start": "parcel index.html --open"
+  },
+  "dependencies": {
+    "bulma": "^0.6.2",
+    "prettier": "^1.11.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-preset-react": "^6.24.1",
+    "node-sass": "^4.7.2",
+    "parcel-bundler": "^1.6.1"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "parser": "flow",
+    "semi": false,
+    "singleQuote": true,
+    "bracketSpacing": true,
+    "arrowParens": "always"
+  }
+}
