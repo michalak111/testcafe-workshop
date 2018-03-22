@@ -13,3 +13,9 @@ node_modules
 
 #IDEA
 .idea
+
+#test-screenshots
+src/e2e/screenshots
+
+#env
+.env

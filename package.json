@@ -4,19 +4,22 @@
   "description": "TestCafe",
   "scripts": {
     "start": "parcel index.html --open",
-    "e2e": "node src/e2e/config.js"
+    "e2e": "rimraf src/e2e/screenshots && node src/e2e/config.js"
   },
   "dependencies": {
     "bulma": "^0.6.2",
     "glob": "^7.1.2",
     "prettier": "^1.11.1",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "testcafe-browser-provider-browserstack": "^1.2.0"
   },
   "devDependencies": {
     "babel-preset-react": "^6.24.1",
+    "dotenv": "^5.0.1",
     "node-sass": "^4.7.2",
     "parcel-bundler": "^1.6.1",
+    "rimraf": "^2.6.2",
     "testcafe": "^0.19.1"
   },
   "prettier": {

@@ -29,5 +29,5 @@ test('Login - wrong password', async (t) => {
 
 test('Login - wrong email', async (t) => {
   await new Login({ email: 'poop@test.com' }).login()
-  await t.expect(loginStatus.innerText).eql('WrongEmail')
+  await t.expect(loginStatus.innerText).eql('WrongEmai')
 })
